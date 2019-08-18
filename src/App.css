@@ -1,33 +1,39 @@
-.App {
-  text-align: center;
+#greenfield-header:hover {
+  background-color: #1c695b;
+  -webkit-transition: background-color 200ms linear;
+  -moz-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+#greenfield-header {
+  background-color: #384249;
+  background-color: #1c695b;
+  -webkit-transition: background-color 2500ms linear;
+  -moz-transition: background-color 2500ms linear;
+  -o-transition: background-color 2500ms linear;
+  -ms-transition: background-color 2500ms linear;
+  transition: background-color 2500ms linear;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#outer-container {
+  width: 1100px;
+  min-height: 500px;
+  background: #fff;
+  margin: 50px auto;
+  margin: 25px auto 80px auto;
+  padding: 15px 25px 30px 15px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.38);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#content-container {
+  float: left;
+  margin-left: 25px;
+  width: 890px;
+  text-align: left;
 }
